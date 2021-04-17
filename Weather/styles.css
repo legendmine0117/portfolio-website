@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: rgb(204, 101, 135);
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
