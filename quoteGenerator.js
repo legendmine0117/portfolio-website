@@ -5,7 +5,6 @@ async function getQuotes(){
     const quotes = [...data]
     
     let btn = document.getElementById('button')
-    let output = document.getElementById('output')
 
     btn.addEventListener('click', function(){
     let randomeNum = Math.floor(Math.random()*quotes.length)
