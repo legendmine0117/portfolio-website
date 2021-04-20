@@ -1,4 +1,5 @@
 let endDate;
+
 window.onload = function(){
     endDate = new Date("Jan 1, 2022").getTime()
 }

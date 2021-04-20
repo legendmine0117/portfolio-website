@@ -1,25 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url(countDown_flower.jpg);
+  background-image: url(countDown_background.png);
   height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
 }
 
 .container {
-  margin-top: 15rem;
-  margin-left: 4rem;
   text-align: center;
 }
 
 h1 {
   font-family: lobster;
   font-size: 5rem;
-  color: rgb(120, 214, 238);
+  color: rgb(15, 71, 85);
 }
 
 li {
@@ -29,14 +35,13 @@ li {
 
 .numbers {
   font-size: 30px;
-
-  color: rgb(241, 18, 222);
+  color: rgb(15, 71, 85);
 }
 
 .input-container {
   margin-top: 5rem;
   font-size: 20px;
-  color: rgb(241, 18, 222);
+  color: rgb(15, 71, 85);
 }
 
 .sel {
@@ -46,7 +51,7 @@ li {
 }
 
 label {
-  color: rgb(241, 18, 222);
+  color: rgb(15, 71, 85);
 }
 
 .dropdown {
