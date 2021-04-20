@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  background-image: url(countDown_flower.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.container {
+  margin-top: 15rem;
+  margin-left: 4rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: lobster;
+  font-size: 5rem;
+  color: rgb(120, 214, 238);
+}
+
+li {
+  display: inline;
+  font-weight: bold;
+}
+
+.numbers {
+  font-size: 30px;
+
+  color: rgb(241, 18, 222);
+}
+
+.input-container {
+  margin-top: 5rem;
+  font-size: 20px;
+  color: rgb(241, 18, 222);
+}
+
+.sel {
+  margin-top: 5rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label {
+  color: rgb(241, 18, 222);
+}
+
+.dropdown {
+  position: relative;
+  font-family: Arial;
+  align-items: center;
+  padding: 1rem;
+}
